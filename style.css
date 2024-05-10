@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* header */
+.header-div {
+    height: 11vh;
+    background-color: rgb(18, 18, 18);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-link {
+    color: white;
+    font-size: 1.10rem;
+    text-decoration: none;
+    margin-left: 5vh;
+}
+
+/* About section */
+.section-one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tag-line {
+    width: 50%;
+    font-size: 1.98rem;
+    padding-left: 10%;
+}
+
+.highlight {
+    color: violet;
+}
+
+#linkedIn {
+    color: rgb(30, 30, 223);
+}
+
+.dev-img {
+    margin-left: 50px;
+}
+
+.dev-img img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* Education section */
+.section-two {
+    font-size: 1.50rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Skills section */
+.section-three {
+    font-size: 1.50rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+/* Contact me */
+.section-four ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.50rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
